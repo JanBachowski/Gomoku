@@ -1,0 +1,41 @@
+
+main
+{
+    background-color: var(--card-bg);
+    height: calc(100% - var(--banner-height));
+    left: var(--nav-width);
+    position: absolute;
+    top: var(--banner-height);
+    width: calc(100% - var(--nav-width));
+}
+
+body{
+    background-color: #ebeddd;
+    
+}
+
+.column {
+    flex:50%;
+}
+
+.row {
+    display: flex;
+}
+
+h1 {
+    font-size:40px;
+    font-family: Helvetica;
+    text-align: center;
+}
+h2 {
+    color:#153e96;
+    display: inline;
+    font-size:30px;
+    font-family:Helvetica;
+    text-align: center;
+}
+h3 {
+    font-size:25px;
+    font-family:Helvetica;
+    text-indent: 100px;
+}

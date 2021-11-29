@@ -1,0 +1,39 @@
+<!doctype html>
+
+
+<script type="module" src="boardGO.js"></script>
+<html lang="en-gb">
+    <head>
+        <title>Play Gomoku</title>
+        <link href="local.css"type="text/css"rel="stylesheet">
+        <link href="default.css"type="text/css"rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="title" role="banner">
+            <h1>Local play</h1>
+        </div>
+        <div class="row" role="complementary"> 
+            <h2 class = "column">
+                <a href="/local-play.html?player=black">Player 1</a>
+            </h2>
+            <h2 class = "column">
+                <a href="/local-play.html?player=white">Player 2</a>
+            </h2>
+        </div>
+        <div class="board" id="board" role="main"></div>
+
+        <div class="winning-message">
+            <div data-winning-message></div>
+            <br>
+            <br>
+            <button id="restartButton" onclick="window.location.reload();" >Restart</button>
+        </div>
+        
+        <script src="socket.io/socket.io.js"></script>
+        <script type="module" src="socket-custom.js"></script>
+        
+        <script type="module" src="logic.js"></script>
+
+    </body>
+</html>

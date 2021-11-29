@@ -1,0 +1,24 @@
+
+.one{
+    list-style-position:outside;
+    list-style-type:circle;
+}
+li{
+    font-size:20px;
+    font-family:Helvetica;
+
+}
+.board {
+    top:60%;
+    width:60%;
+}
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.single {
+    top:40%;
+    width:40%;
+}
