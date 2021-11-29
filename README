@@ -1,0 +1,4 @@
+The project brief was to code a multiplayer boardgame using Javascript for the background, whihc would run from more than one instance. 
+I attempted to make a working game of GO. I was however not able to get it working in the alotted time so ultimately developed a game called GOMOKU. 
+
+The '1st' HTML page in the 'public' folder allows access to the web page through which the game is played.
